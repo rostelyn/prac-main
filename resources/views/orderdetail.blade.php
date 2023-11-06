@@ -25,11 +25,11 @@
         @foreach ($orderdetails as $orderdetail )
         <tr>
            
-           <td>{{ $orderdetails->orderdetail_ID; }}</td>
-           <td>{{ $orderdetails->order_ID; }}</td>
-           <td>{{ $orderdetails->product_id; }}</td>
-           <td>{{ $orderdetails->quantity; }}</td>
-           <td>{{ $orderdetails->subtotal; }}</td>
+           <td>{{ $orderdetails->orderdetail_ID }}</td>
+           <td>{{ $orderdetails->order_ID}}</td>
+           <td>{{ $orderdetails->product_id }}</td>
+           <td>{{ $orderdetails->quantity}}</td>
+           <td>{{ $orderdetails->subtotal}}</td>
        </tr> 
            @endforeach
              

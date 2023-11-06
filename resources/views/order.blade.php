@@ -20,10 +20,10 @@
         
         @foreach ($orders as $order)
         <tr>
-            <td>{{ $orders->order_ID; }}</td>
-            <td>{{ $orders->order_date; }}</td>
-            <td>{{ $orders->total_amount; }}</td>
-            <td>{{ $orders->status; }}</td>
+            <td>{{ $orders->order_ID}}</td>
+            <td>{{ $orders->order_date}}</td>
+            <td>{{ $orders->total_amount}}</td>
+            <td>{{ $orders->status}}</td>
            
         </tr>
         @endforeach

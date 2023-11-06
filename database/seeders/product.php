@@ -34,7 +34,7 @@ class product extends Seeder
 
         ]);
         DB::table('orders')->insert([
-            'order_ID' => 12,
+            'order_ID' => 1,
             'order_date' => 10,          
             'total_amount'=> 200,
             'status'=> 'pending',
@@ -47,7 +47,7 @@ class product extends Seeder
             'email'=> '@rostelyn@gmail.com',
             'phone'=> 12345678,
         ]);
-        DB::table('orderdetails')->insert([
+        DB::table('orderdetail')->insert([
             'orderdetail_ID' => 1,
             'order_ID' => 1,          
             'product_id'=> 1,

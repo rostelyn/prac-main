@@ -19,8 +19,8 @@
     
         @foreach ($categories as $category)
         <tr>
-            <td>{{ $categories->CategoryID; }}</td>
-            <td>{{ $categories->category_name; }}</td>
+            <td>{{ $categories->CategoryID}}</td>
+            <td>{{ $categories->category_name}}</td>
            
         </tr>
         @endforeach

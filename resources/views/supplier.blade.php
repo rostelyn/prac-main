@@ -21,9 +21,9 @@
  @foreach ($suppliers as $supplier )
  <tr>
     
-    <td>{{ $suppliers->supplier_name; }}</td>
-    <td>{{ $suppliers->contact_info; }}</td>
-    <td>{{ $suppliers->address; }}</td>
+    <td>{{ $suppliers->supplier_name }}</td>
+    <td>{{ $suppliers->contact_info }}</td>
+    <td>{{ $suppliers->address }}</td>
 </tr> 
     @endforeach
       
