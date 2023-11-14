@@ -18,16 +18,16 @@
     
     <tbody>
     
- @foreach ($suppliers as $supplier )
- <tr>
+    @foreach ($suppliers as $supplier )
+     <tr>
     
-    <td>{{ $suppliers->supplier_name }}</td>
-    <td>{{ $suppliers->contact_info }}</td>
-    <td>{{ $suppliers->address }}</td>
-</tr> 
+        <td>{{ $suppliers->supplier_name }}</td>
+        <td>{{ $suppliers->contact_info }}</td>
+        <td>{{ $suppliers->address }}</td>
+        
+      </tr>
     @endforeach
       
-    
     </tbody>
     
     <tbody>
